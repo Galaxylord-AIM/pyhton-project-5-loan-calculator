@@ -34,6 +34,7 @@ def monthly_payment_calc(duration):
         return statement + str(int(payment_check[0]) + 1) + ' and the last payment = ' + str(last_payment)
 
 
+
 principle = int(input('''Enter the loan principal:
 '''))
 selected_option = input('''What do you want to calculate?
