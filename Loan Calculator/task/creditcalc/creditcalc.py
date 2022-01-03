@@ -110,7 +110,6 @@ elif calculate == 'a':
     i = loan_interest / (12 * 100)
     print('Your monthly payment =', str(round((principle * ((i * ((1 + i) ** period)) / (((1 + i) ** period) - 1))) + 1)) + '!')
 else:
-
     annuity = float(input(required_details('annuity')))
     period = int(input(required_details('period')))
     loan_interest = float(input(required_details('interest')))
